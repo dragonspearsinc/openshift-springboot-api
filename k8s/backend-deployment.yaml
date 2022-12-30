@@ -31,8 +31,8 @@ spec:
               value: jdbc:mysql://db:3306/employee-schema #host.docker.internal
             - name: spring.datasource.username
               value: root
-          image: dragonspears/backend:latest
-          imagePullPolicy: IfNotPresent
+          image: image-registry.openshift-image-registry.svc:5000/jgunnwintrust-dev/backend:latest
+          imagePullPolicy: Always
           name: backend
           ports:
             - containerPort: 8080

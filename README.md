@@ -1,5 +1,15 @@
-## Technical Details
+# Pipeline Architecture
+![pipeline](./assets/pipeline.png)
 
+## Tasks
+1. git-clone 
+1. maven
+1. buildah
+1. apply-manifests  
+
+# Technical Details
+
+## Description
 Spring / Maven / Java 19
 
 ## Dependency
